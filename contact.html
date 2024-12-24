@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hy there! It's Ahmed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+      </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar sidebarGo">
+        <nav>
+          <ul>
+            <li><a href="/">Home </a></li>
+            <li><a  href="/intro.html">My Intro</a></li>
+            <li><a href="/service.html">Services</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/contact.html">Contact me</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main">
+        <div class="icons">
+          <i class="fa-solid fa-bars bar1"></i>
+          <i class="fa-regular fa-circle-xmark cross"></i>
+        </div>
+       <div class="contactform" style="text-align: left; margin: 0px 60px;">
+        <h1>Contact me for Work/General Enquiries</h1>
+        <form>
+            <div class="mb-3" style="display: flex; flex-direction: column;">
+                <label for="exampleInputEmail1" class="client email">Your Name</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" style="margin-top: 10px; width: 500px; border-radius: 5px; border: 1px solid grey;">
+               
+            <div class="mb-3" style="display: flex; flex-direction: column;">
+              <label for="exampleInputEmail1" class="client email">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" style="margin-top: 10px; width: 500px; border-radius: 5px; border: 1px solid grey;">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+             
+            <div class="mb-3" style="display: flex; flex-direction: column;" >
+              <label for="exampleInputPassword1" class="clientphone">Enter your Phone number</label>
+              <input type="phone" class="phone" id="exampleInputPassword1" style="margin-top: 10px; width: 500px; border-radius: 5px; border: 1px solid grey;">
+            </div>
+            
+            <div class="mb-3" style="display: flex; flex-direction: column;">
+                <label for="exampleInputEmail1" class="client email">Your Enquiry</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" style="margin-top: 10px; width: 500px; border-radius: 5px; border: 1px solid grey;">
+                
+
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">I want you to work on a project with me</label>
+              </div>
+            <button type="submit" class="buttonSum" id="mybuton" style="width: 100px; margin-top: 16px; background-color: dodgerblue; color: white; border: none; height: 30px;">Submit</button>
+          </form>
+       </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
